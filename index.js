@@ -16,7 +16,7 @@ const App = () => {
   const [offset, setOffset] = useState(1);
   const [images, setImages] = useState([]);
   useEffect(async () => {
-    const response = await fetch('./data/jiandan.json');
+    const response = await fetch('./data/unsplash.json');
     const images = await response.json();
     setImages(images);
   }, []);
