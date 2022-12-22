@@ -1,5 +1,5 @@
 import { ready, querySelector as $ } from 'https://lsong.org/scripts/dom.js';
-import { h, render, useState, useEffect } from 'https://unpkg.com/htm/preact/standalone.module.js';
+import { h, render, useState, useEffect } from 'https://lsong.org/scripts/components/index.js';
 
 const Post = ({ img }) => {
   return h('div', { className: "post" }, [

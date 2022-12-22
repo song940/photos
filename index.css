@@ -1,3 +1,7 @@
+.container {
+  max-width: 650px;
+}
+
 .posts {
   margin: 0;
   padding: 0;
